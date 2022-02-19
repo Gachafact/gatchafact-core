@@ -1,0 +1,27 @@
+{
+  "name": "gachafact_dc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archerist/gachafact.git"
+  },
+  "author": "Archerist",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Archerist/gachafact/issues"
+  },
+  "homepage": "https://github.com/Archerist/gachafact#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
