@@ -1,5 +1,3 @@
-
-
 export default class Artifact{
     id:number
     set_name:string

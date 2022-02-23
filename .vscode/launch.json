@@ -13,6 +13,8 @@
             ],
             "program": "${workspaceFolder}/src/app.ts",
             "preLaunchTask": "tsc: build - tsconfig.json",
+            "internalConsoleOptions": "neverOpen",
+            "smartStep": true,
             "outFiles": [
                 "${workspaceFolder}/dist/**/*.js"
             ]

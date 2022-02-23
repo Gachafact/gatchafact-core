@@ -15,9 +15,4 @@ export default class User{
         this.first_artifact_timestamp = first_artifact_timestamp
         this.artifacts = artifacts
     }
-
-    public static createUser(discord_id:number){
-        
-    }
-
 }
