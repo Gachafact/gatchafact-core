@@ -2,9 +2,8 @@
   "name": "gachafact-dc",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/app.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "node ./dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,12 +17,8 @@
   },
   "homepage": "https://github.com/Archerist/gachafact#readme",
   "dependencies": {
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0",
     "moment": "^2.29.1",
-    "pg": "^8.7.3",
-    "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.43"
+    "pg": "^8.7.3"
   },
   "devDependencies": {
     "@types/pg": "^8.6.4",
