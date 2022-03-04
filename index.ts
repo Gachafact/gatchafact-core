@@ -1,6 +1,6 @@
-import User from "./core/User.js"
+import User from "./src/User.js"
 import PG from "pg";
-import Artifact from "./core/Artifact.js";
+import Artifact from "./src/Artifact.js";
 
 
 
