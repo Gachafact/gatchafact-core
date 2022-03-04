@@ -10,8 +10,6 @@ export default class GachafactCore {
 
 	constructor(){
 		this.#db =  new PG.Pool({connectionString:process.env.DATABASE_URL, ssl:{rejectUnauthorized:false}})
-		this.#db.connect()
-
 	}
 
 
@@ -25,7 +23,7 @@ export default class GachafactCore {
 	public async getUser(discord_id:string): Promise<User | undefined>{
 		let client = await this.#db.connect()
 		let query= {
-			text: `select * from view_users where discord_id = $1`,
+			text: `select * from users where discord_id = $1`,
 			values: [discord_id]
 		}
 
